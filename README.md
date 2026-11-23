@@ -1,4 +1,4 @@
-# *Bacillus pumilus* vs. *Staphylococcus aureus* NCTC 8325 Antagonism & BGC Screening Pipeline
+# Microbial Antagonism & BGC Screening Pipeline
 
 
 
