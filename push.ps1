@@ -7,6 +7,12 @@ param(
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
+# Git PATH'te yoksa varsayilan Git for Windows dizinini ekle
+$gitCmd = "C:\Program Files\Git\cmd"
+if (-not (Get-Command git -ErrorAction SilentlyContinue) -and (Test-Path "$gitCmd\git.exe")) {
+    $env:PATH = "$gitCmd;$env:PATH"
+}
+
 if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
     throw "Git bulunamadi. Lutfen Git for Windows kurun ve PATH'e ekleyin."
 }
@@ -52,14 +58,27 @@ if ($remotes -contains "origin") {
 }
 
 # Uzak depoda onceden README/license varsa cakismayi onlemek icin senkronize et
+# git fetch stderr ciktisini NativeCommandError olarak durdurmamak icin Continue kullan
+$prevPref = $ErrorActionPreference
+$ErrorActionPreference = "Continue"
 git fetch origin $Branch 2>$null
 $remoteExists = ($LASTEXITCODE -eq 0)
+$ErrorActionPreference = $prevPref
 
 if ($remoteExists) {
+    $ErrorActionPreference = "Continue"
     git pull origin $Branch --allow-unrelated-histories --no-rebase
+    $ErrorActionPreference = $prevPref
 }
 
 Write-Host "$RepoUrl adresine ($Branch) gonderiliyor..." -ForegroundColor Cyan
+$ErrorActionPreference = "Continue"
 git push -u origin $Branch
+$pushExit = $LASTEXITCODE
+$ErrorActionPreference = $prevPref
+
+if ($pushExit -ne 0) {
+    throw "git push basarisiz oldu (cikis kodu: $pushExit)."
+}
 
 Write-Host "Push basarili: https://github.com/baysalo/microbial-antagonism-bgc-screening" -ForegroundColor Green
