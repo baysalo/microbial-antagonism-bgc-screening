@@ -1,0 +1,39 @@
+# config.yaml
+run_id: null # Auto-generated UTC timestamp if null
+min_gtf_join_rate: 0.25
+
+strains:
+  antagonist:
+    strain_name: "Bacillus_pumilus"
+    role: "antagonist_candidate"
+    assembly_accession: "GCF_000017885.4"
+    annotation_pipeline: "NCBI PGAP"
+    fasta_path: "data/BacilluspGCF_000017885.4_ASM1788v4_genomic.fna"
+    gtf_path: "data/Bacilluspgenomic.gtf"
+    cds_path: "data/Bacilluspcds_from_genomic.fna"
+  target:
+    strain_name: "Staphylococcus_aureus_NCTC8325"
+    role: "target_strain"
+    assembly_accession: "GCF_000013425.1"
+    annotation_pipeline: "NCBI PGAP"
+    fasta_path: "data/StaphGCF_000013425.1_ASM1342v1_genomic.fna"
+    gtf_path: "data/Staphgenomic.gtf"
+    cds_path: "data/Staphcds_from_genomic.fna"
+
+heuristic_signal:
+  hydrophobic_aas: ["A", "V", "I", "L", "M", "F", "W"] # Proline excluded
+  min_hydrophobic_frac: 0.55
+  cleavage_regex: "[AGST].[AGST]"
+
+scoring:
+  cap: 10.0
+  high_candidate_threshold: 5.0
+  weights:
+    has_sec_sig: 2.5
+    signal_score_scale: 0.4
+    signal_score_cap: 5.0
+    hit_antimicr: 3.5
+    hit_lytic: 2.0
+    hit_protease: 1.0
+    hit_lipase: 1.0
+    hit_export: 1.0

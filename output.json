@@ -1,0 +1,352 @@
+{
+  "INFO": {
+    "failedjobs": 0,
+    "size": 14
+  },
+  "CSV_FILE": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/prediction_results.txt",
+  "MATURE_FILE": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/processed_entries.fasta",
+  "GFF_FILE": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output.gff3",
+  "ZIP_FILE": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_all_results.zip",
+  "SEQUENCES": {
+    "lcl_NC_009848.4_cds_WP_012009488.1_972 score_9.00 sig_5.90 anti_1 lytic_0 prot_0 lip_0": {
+      "Name": "lcl_NC_009848.4_cds_WP_012009488.1_972 score_9.00 sig_5.90 anti_1 lytic_0 prot_0 lip_0",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012009488_1_972_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012009488_1_972_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012009488_1_972_plot.txt",
+      "Prediction": "Lipoprotein signal peptide (Sec/SPII)",
+      "Likelihood": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": "Cleavage site between pos. 19 and 20. Probability 0.995046"
+    },
+    "lcl_NC_009848.4_cds_WP_012010478.1_2093 score_8.00 sig_6.30 anti_1 lytic_0 prot_0 lip_0": {
+      "Name": "lcl_NC_009848.4_cds_WP_012010478.1_2093 score_8.00 sig_6.30 anti_1 lytic_0 prot_0 lip_0",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012010478_1_2093_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012010478_1_2093_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012010478_1_2093_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0003,
+        0.9989,
+        0.0002,
+        0.0002,
+        0.0002,
+        0.0002
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": "Cleavage site between pos. 25 and 26. Probability 0.979395"
+    },
+    "lcl_NC_009848.4_cds_WP_025093875.1_3316 score_8.00 sig_6.10 anti_1 lytic_0 prot_0 lip_0": {
+      "Name": "lcl_NC_009848.4_cds_WP_025093875.1_3316 score_8.00 sig_6.10 anti_1 lytic_0 prot_0 lip_0",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_025093875_1_3316_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_025093875_1_3316_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_025093875_1_3316_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": ""
+    },
+    "lcl_NC_009848.4_cds_WP_012009120.1_572 score_7.50 sig_6.50 anti_0 lytic_1 prot_1 lip_0": {
+      "Name": "lcl_NC_009848.4_cds_WP_012009120.1_572 score_7.50 sig_6.50 anti_0 lytic_1 prot_1 lip_0",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012009120_1_572_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012009120_1_572_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012009120_1_572_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.9692,
+        0.0269,
+        0.0014,
+        0.0001,
+        0.0001,
+        0.0024
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": ""
+    },
+    "lcl_NC_009848.4_cds_WP_003214284.1_477 score_6.50 sig_6.40 anti_0 lytic_1 prot_0 lip_0": {
+      "Name": "lcl_NC_009848.4_cds_WP_003214284.1_477 score_6.50 sig_6.40 anti_0 lytic_1 prot_0 lip_0",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_003214284_1_477_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_003214284_1_477_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_003214284_1_477_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9992,
+        0.0001,
+        0.0002,
+        0.0001,
+        0.0001
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": "Cleavage site between pos. 29 and 30. Probability 0.967003"
+    },
+    "lcl_NC_009848.4_cds_WP_012008795.1_238 score_5.50 sig_6.80 anti_0 lytic_0 prot_1 lip_0": {
+      "Name": "lcl_NC_009848.4_cds_WP_012008795.1_238 score_5.50 sig_6.80 anti_0 lytic_0 prot_1 lip_0",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012008795_1_238_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012008795_1_238_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012008795_1_238_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0003,
+        0.9991,
+        0.0002,
+        0.0002,
+        0.0001,
+        0.0001
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": "Cleavage site between pos. 30 and 31. Probability 0.970010"
+    },
+    "lcl_NC_009848.4_cds_WP_012009856.1_1381 score_5.50 sig_6.80 anti_0 lytic_0 prot_1 lip_0": {
+      "Name": "lcl_NC_009848.4_cds_WP_012009856.1_1381 score_5.50 sig_6.80 anti_0 lytic_0 prot_1 lip_0",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012009856_1_1381_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012009856_1_1381_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012009856_1_1381_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.9935,
+        0.0055,
+        0.0006,
+        0.0,
+        0.0,
+        0.0004
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": ""
+    },
+    "lcl_NC_009848.4_cds_WP_041815555.1_1664 score_5.50 sig_6.60 anti_0 lytic_0 prot_1 lip_0": {
+      "Name": "lcl_NC_009848.4_cds_WP_041815555.1_1664 score_5.50 sig_6.60 anti_0 lytic_0 prot_1 lip_0",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_041815555_1_1664_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_041815555_1_1664_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_041815555_1_1664_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.999,
+        0.0002,
+        0.0002,
+        0.0002,
+        0.0001
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": "Cleavage site between pos. 25 and 26. Probability 0.975606"
+    },
+    "lcl_NC_009848.4_cds_WP_012011602.1_3340 score_5.50 sig_6.40 anti_0 lytic_0 prot_1 lip_0": {
+      "Name": "lcl_NC_009848.4_cds_WP_012011602.1_3340 score_5.50 sig_6.40 anti_0 lytic_0 prot_1 lip_0",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012011602_1_3340_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012011602_1_3340_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012011602_1_3340_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0003,
+        0.999,
+        0.0002,
+        0.0002,
+        0.0002,
+        0.0001
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": "Cleavage site between pos. 23 and 24. Probability 0.963652"
+    },
+    "lcl_NC_009848.4_cds_WP_012011917.1_3669 score_5.50 sig_6.20 anti_0 lytic_0 prot_1 lip_0": {
+      "Name": "lcl_NC_009848.4_cds_WP_012011917.1_3669 score_5.50 sig_6.20 anti_0 lytic_0 prot_1 lip_0",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012011917_1_3669_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012011917_1_3669_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012011917_1_3669_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0003,
+        0.9991,
+        0.0002,
+        0.0002,
+        0.0002,
+        0.0001
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": "Cleavage site between pos. 29 and 30. Probability 0.965661"
+    },
+    "lcl_NC_009848.4_cds_WP_012009414.1_885 score_5.50 sig_6.10 anti_0 lytic_0 prot_1 lip_0": {
+      "Name": "lcl_NC_009848.4_cds_WP_012009414.1_885 score_5.50 sig_6.10 anti_0 lytic_0 prot_1 lip_0",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012009414_1_885_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012009414_1_885_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012009414_1_885_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0003,
+        0.9989,
+        0.0002,
+        0.0002,
+        0.0002,
+        0.0002
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": "Cleavage site between pos. 25 and 26. Probability 0.974208"
+    },
+    "lcl_NC_009848.4_cds_WP_012008807.1_251 score_5.50 sig_6.00 anti_0 lytic_0 prot_1 lip_0": {
+      "Name": "lcl_NC_009848.4_cds_WP_012008807.1_251 score_5.50 sig_6.00 anti_0 lytic_0 prot_1 lip_0",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012008807_1_251_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012008807_1_251_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012008807_1_251_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0003,
+        0.999,
+        0.0002,
+        0.0002,
+        0.0002,
+        0.0001
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": "Cleavage site between pos. 31 and 32. Probability 0.973948"
+    },
+    "lcl_NC_009848.4_cds_WP_012011486.1_3208 score_5.50 sig_5.90 anti_0 lytic_0 prot_1 lip_0": {
+      "Name": "lcl_NC_009848.4_cds_WP_012011486.1_3208 score_5.50 sig_5.90 anti_0 lytic_0 prot_1 lip_0",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012011486_1_3208_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012011486_1_3208_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_012011486_1_3208_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0003,
+        0.9989,
+        0.0003,
+        0.0002,
+        0.0002,
+        0.0002
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": "Cleavage site between pos. 24 and 25. Probability 0.974245"
+    },
+    "lcl_NC_009848.4_cds_WP_041815679.1_2036 score_5.50 sig_5.40 anti_0 lytic_0 prot_1 lip_0": {
+      "Name": "lcl_NC_009848.4_cds_WP_041815679.1_2036 score_5.50 sig_5.40 anti_0 lytic_0 prot_1 lip_0",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_041815679_1_2036_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_041815679_1_2036_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/output_lcl_NC_009848_4_cds_WP_041815679_1_2036_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0004,
+        0.9988,
+        0.0002,
+        0.0002,
+        0.0002,
+        0.0002
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": "Cleavage site between pos. 24 and 25. Probability 0.983648"
+    }
+  },
+  "FORMAT": "all",
+  "ORG": "other",
+  "MODE": "fast",
+  "REGION_GFF_FILE": "/services/SignalP-6.0/tmp/6B045C310014B92F8865304E/region_output.gff3"
+}

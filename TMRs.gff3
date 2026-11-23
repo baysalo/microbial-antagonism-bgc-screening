@@ -1,0 +1,64 @@
+##gff-version 3
+# lcl|NC_009848.4_cds_WP_012009488.1_972 Length: 295
+# lcl|NC_009848.4_cds_WP_012009488.1_972 Number of predicted TMRs: 0
+lcl|NC_009848.4_cds_WP_012009488.1_972	outside	1	295				
+//
+# lcl|NC_009848.4_cds_WP_012010478.1_2093 Length: 65
+# lcl|NC_009848.4_cds_WP_012010478.1_2093 Number of predicted TMRs: 0
+lcl|NC_009848.4_cds_WP_012010478.1_2093	outside	1	65				
+//
+# lcl|NC_009848.4_cds_WP_025093875.1_3316 Length: 96
+# lcl|NC_009848.4_cds_WP_025093875.1_3316 Number of predicted TMRs: 2
+lcl|NC_009848.4_cds_WP_025093875.1_3316	inside	1	10				
+lcl|NC_009848.4_cds_WP_025093875.1_3316	TMhelix	11	27				
+lcl|NC_009848.4_cds_WP_025093875.1_3316	outside	28	72				
+lcl|NC_009848.4_cds_WP_025093875.1_3316	TMhelix	73	82				
+lcl|NC_009848.4_cds_WP_025093875.1_3316	inside	83	96				
+//
+# lcl|NC_009848.4_cds_WP_012009120.1_572 Length: 325
+# lcl|NC_009848.4_cds_WP_012009120.1_572 Number of predicted TMRs: 0
+lcl|NC_009848.4_cds_WP_012009120.1_572	signal	1	27				
+lcl|NC_009848.4_cds_WP_012009120.1_572	outside	28	325				
+//
+# lcl|NC_009848.4_cds_WP_003214284.1_477 Length: 214
+# lcl|NC_009848.4_cds_WP_003214284.1_477 Number of predicted TMRs: 0
+lcl|NC_009848.4_cds_WP_003214284.1_477	outside	1	214				
+//
+# lcl|NC_009848.4_cds_WP_012008795.1_238 Length: 859
+# lcl|NC_009848.4_cds_WP_012008795.1_238 Number of predicted TMRs: 0
+lcl|NC_009848.4_cds_WP_012008795.1_238	outside	1	859				
+//
+# lcl|NC_009848.4_cds_WP_012009856.1_1381 Length: 342
+# lcl|NC_009848.4_cds_WP_012009856.1_1381 Number of predicted TMRs: 1
+lcl|NC_009848.4_cds_WP_012009856.1_1381	inside	1	7				
+lcl|NC_009848.4_cds_WP_012009856.1_1381	TMhelix	8	24				
+lcl|NC_009848.4_cds_WP_012009856.1_1381	outside	25	342				
+//
+# lcl|NC_009848.4_cds_WP_041815555.1_1664 Length: 277
+# lcl|NC_009848.4_cds_WP_041815555.1_1664 Number of predicted TMRs: 0
+lcl|NC_009848.4_cds_WP_041815555.1_1664	outside	1	277				
+//
+# lcl|NC_009848.4_cds_WP_012011602.1_3340 Length: 247
+# lcl|NC_009848.4_cds_WP_012011602.1_3340 Number of predicted TMRs: 0
+lcl|NC_009848.4_cds_WP_012011602.1_3340	signal	1	10				
+lcl|NC_009848.4_cds_WP_012011602.1_3340	outside	11	247				
+//
+# lcl|NC_009848.4_cds_WP_012011917.1_3669 Length: 245
+# lcl|NC_009848.4_cds_WP_012011917.1_3669 Number of predicted TMRs: 0
+lcl|NC_009848.4_cds_WP_012011917.1_3669	outside	1	245				
+//
+# lcl|NC_009848.4_cds_WP_012009414.1_885 Length: 252
+# lcl|NC_009848.4_cds_WP_012009414.1_885 Number of predicted TMRs: 0
+lcl|NC_009848.4_cds_WP_012009414.1_885	outside	1	252				
+//
+# lcl|NC_009848.4_cds_WP_012008807.1_251 Length: 512
+# lcl|NC_009848.4_cds_WP_012008807.1_251 Number of predicted TMRs: 0
+lcl|NC_009848.4_cds_WP_012008807.1_251	outside	1	512				
+//
+# lcl|NC_009848.4_cds_WP_012011486.1_3208 Length: 383
+# lcl|NC_009848.4_cds_WP_012011486.1_3208 Number of predicted TMRs: 0
+lcl|NC_009848.4_cds_WP_012011486.1_3208	outside	1	383				
+//
+# lcl|NC_009848.4_cds_WP_041815679.1_2036 Length: 359
+# lcl|NC_009848.4_cds_WP_041815679.1_2036 Number of predicted TMRs: 0
+lcl|NC_009848.4_cds_WP_041815679.1_2036	outside	1	359				

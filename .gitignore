@@ -1,0 +1,21 @@
+# Python & IDE
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Büyük genom/sekans ve geçici çalıştırma klasörleri (isteğe göre düzenleyin)
+data/*.fna
+data/*.fa
+data/*.fastq
+data/*.fq
+data/*.gbff
+runs/*
+!runs/.gitkeep
+
+# Büyük görsel/arşiv çıktıları (isteğe göre yorum satırına alabilirsiniz)
+*.zip
+*.tar.gz
